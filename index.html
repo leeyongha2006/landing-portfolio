@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>랜딩페이지 작업 모음</title>
+<meta name="description" content="소상공인 랜딩페이지 제작 포트폴리오">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"IBM Plex Sans KR",sans-serif;background:#fafaf8;color:#151515;line-height:1.7;word-break:keep-all}
+  a{color:inherit;text-decoration:none}
+  .w{max-width:1100px;margin:0 auto;padding:64px 32px 80px}
+  h1{font-size:15px;font-weight:600}
+  .lead{font-size:clamp(24px,3vw,34px);letter-spacing:-.03em;line-height:1.45;margin:20px 0 56px;max-width:720px;font-weight:500}
+  .item{display:grid;grid-template-columns:2fr 1fr;gap:32px;padding:28px 0;border-top:1px solid #151515;align-items:center}
+  .item:last-of-type{border-bottom:1px solid #151515}
+  .item img{width:100%;aspect-ratio:16/8;object-fit:cover;display:block;transition:opacity .2s}
+  .item:hover img{opacity:.85}
+  .item small{font-size:13px;color:#777}
+  .item h2{font-size:22px;letter-spacing:-.02em;margin:4px 0 8px}
+  .item p{font-size:15px;color:#444}
+  .item .go{display:inline-block;margin-top:14px;font-size:14px;font-weight:600;border-bottom:1px solid}
+  footer{font-size:13px;color:#888;margin-top:32px}
+  @media(max-width:760px){.w{padding:44px 20px 64px}.item{grid-template-columns:1fr;gap:16px}}
+</style>
+</head>
+<body>
+<div class="w">
+  <h1>랜딩페이지 작업 모음</h1>
+  <p class="lead">가게마다 분위기가 다르니까 페이지도 달라야 합니다. 업종별로 하나씩 만들어 봤어요. 휴대폰으로도 열어보세요.</p>
+
+  <a class="item" href="cafe.html">
+    <img src="img/cafe-hero.jpg" alt="">
+    <div><small>카페 · 로스터리</small><h2>온기 커피</h2><p>사장님 이야기, 인쇄 메뉴판 느낌의 메뉴, 원두 판매까지 한 페이지에.</p><span class="go">페이지 보기</span></div>
+  </a>
+  <a class="item" href="pilates.html">
+    <img src="img/pil-hero.jpg" alt="" style="object-position:50% 35%">
+    <div><small>필라테스 · 운동</small><h2>숨 필라테스</h2><p>차분한 분위기, 수강료표, 체험 예약 폼. 처음 오는 사람이 덜 부담스럽게.</p><span class="go">페이지 보기</span></div>
+  </a>
+  <a class="item" href="academy.html">
+    <img src="img/aca-hero.jpg" alt="">
+    <div><small>학원 · 교육</small><h2>한결수학</h2><p>학부모가 궁금해하는 것 위주로: 시간표, 반 현황, 성적, 레벨테스트 신청.</p><span class="go">페이지 보기</span></div>
+  </a>
+
+  <footer>모든 업체는 포트폴리오용 가상 업체입니다. 사진: Unsplash</footer>
+</div>
+</body>
+</html>
